@@ -5,5 +5,6 @@ authors:
   - family-names: Iyer
     given-names: Rishva Tejan
 date-released: 2026-10-29
+doi: 10.5281/zenodo.23773927
 license: MIT
 repository-code: https://github.com/rishvaiyer/gpu-canary

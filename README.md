@@ -6,7 +6,7 @@ inputs), record the greedy answers while the hardware is healthy, replay them
 later, count mismatches. One scan is 64 single-token forwards: 2.5 s for a
 0.5B model on an NVIDIA L4 in fp16.
 
-Paper: `paper/main.tex` (9 pages). Author: Rishva Tejan Iyer, independent researcher.
+Paper: `paper/main.tex` (9 pages). Preprint with DOI: https://doi.org/10.5281/zenodo.23773927. Author: Rishva Tejan Iyer, independent researcher.
 
 ## What it finds
 
