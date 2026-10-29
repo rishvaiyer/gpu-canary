@@ -1,0 +1,12 @@
+{"ts": "2026-10-29T00:55:21", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "border", "inject": null, "n": 64, "mismatches": 0, "bad_idx": [], "seconds": 21.0, "status": "OK"}
+{"ts": "2026-10-29T00:56:11", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "border", "inject": "20:7:1e-6", "n": 64, "mismatches": 0, "bad_idx": [], "seconds": 17.0, "status": "OK"}
+{"ts": "2026-10-29T00:56:33", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "ordinary", "inject": "20:7:1e-6", "n": 32, "mismatches": 0, "bad_idx": [], "seconds": 16.1, "status": "OK"}
+{"ts": "2026-10-29T00:56:54", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "border", "inject": "20:7:1e-5", "n": 64, "mismatches": 0, "bad_idx": [], "seconds": 14.1, "status": "OK"}
+{"ts": "2026-10-29T00:57:17", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "ordinary", "inject": "20:7:1e-5", "n": 32, "mismatches": 0, "bad_idx": [], "seconds": 15.9, "status": "OK"}
+{"ts": "2026-10-29T00:57:39", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "border", "inject": "20:7:1e-4", "n": 64, "mismatches": 0, "bad_idx": [], "seconds": 14.5, "status": "OK"}
+{"ts": "2026-10-29T00:58:00", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "ordinary", "inject": "20:7:1e-4", "n": 32, "mismatches": 0, "bad_idx": [], "seconds": 14.6, "status": "OK"}
+{"ts": "2026-10-29T00:58:23", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "border", "inject": "20:7:1e-3", "n": 64, "mismatches": 0, "bad_idx": [], "seconds": 16.4, "status": "OK"}
+{"ts": "2026-10-29T00:58:44", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "ordinary", "inject": "20:7:1e-3", "n": 32, "mismatches": 0, "bad_idx": [], "seconds": 14.7, "status": "OK"}
+{"ts": "2026-10-29T00:59:06", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "border", "inject": "20:7:1e-2", "n": 64, "mismatches": 0, "bad_idx": [], "seconds": 15.4, "status": "OK"}
+{"ts": "2026-10-29T00:59:28", "host": "norollbacks", "dtype": "float32", "device": "cpu", "set": "ordinary", "inject": "20:7:1e-2", "n": 32, "mismatches": 0, "bad_idx": [], "seconds": 14.9, "status": "OK"}
+SWEEP_DONE

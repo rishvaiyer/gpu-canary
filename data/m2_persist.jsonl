@@ -1,0 +1,4 @@
+{"pattern": "zero", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 51}
+{"pattern": "sign", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 74}
+{"pattern": "bias1e-3", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 25}
+{"pattern": "bias1e-2", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 32}

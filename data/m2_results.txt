@@ -1,0 +1,22 @@
+GPU 0: NVIDIA L4 (UUID: GPU-6d47a3d9-1086-8425-95b0-88319e50c747)
+=== mine bank for Qwen/Qwen2.5-1.5B ===
+scored 907 candidates; 60 under gap 0.05; kept 60 -> m2/bank.json
+=== refs fp16, two runs ===
+[l4-cuda-float16-1.5B] 60 probes, 5 flips vs bank, 20.71 probe/s on gpu-canary/x86_64 -> m2/sig_l4_float16_run1.json
+[l4-cuda-float16-1.5B] 60 probes, 5 flips vs bank, 21.36 probe/s on gpu-canary/x86_64 -> m2/sig_l4_float16_run2.json
+1.5B fp16 run1 vs run2 differ 0 /64
+=== persistent fault vs self-check, 1.5B fp16 ===
+{"pattern": "zero", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 51}
+{"pattern": "sign", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 74}
+{"pattern": "bias1e-3", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 25}
+{"pattern": "bias1e-2", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 32}
+=== persistent fault vs self-check, 0.5B fp16 ===
+{"pattern": "zero", "trials": 8, "border_flagged": 8, "ordinary_flagged": 1, "selfcheck_flagged": 0, "border_flips": 78}
+{"pattern": "sign", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 87}
+{"pattern": "bias1e-3", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 22}
+{"pattern": "bias1e-2", "trials": 8, "border_flagged": 8, "ordinary_flagged": 0, "selfcheck_flagged": 0, "border_flips": 23}
+=== faultsim 1.5B fp16, rate 0.01 ===
+{"fault": "zero", "rate": 0.01, "dtype": "float16", "device": "cuda", "reps": 10, "border_scans_flagged": 10, "ordinary_scans_flagged": 0, "border_probe_flips": 48, "ordi
+{"fault": "sign", "rate": 0.01, "dtype": "float16", "device": "cuda", "reps": 10, "border_scans_flagged": 10, "ordinary_scans_flagged": 2, "border_probe_flips": 59, "ordi
+{"fault": "bias", "rate": 0.01, "dtype": "float16", "device": "cuda", "reps": 10, "border_scans_flagged": 10, "ordinary_scans_flagged": 0, "border_probe_flips": 28, "ordi
+DONE

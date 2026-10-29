@@ -1,0 +1,657 @@
+{
+  "label": "ryzen-cpu-bfloat16",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "dtype": "bfloat16",
+  "device": "cpu",
+  "host": "norollbacks",
+  "machine": "x86_64",
+  "torch": "2.15.0+cpu",
+  "n_probes": 64,
+  "flips_vs_bank": 26,
+  "seconds": 28.029,
+  "tok_per_s": 2.28,
+  "signature": [
+    68,
+    4324,
+    17877,
+    220,
+    284,
+    50,
+    198,
+    198,
+    13,
+    198,
+    674,
+    198,
+    25,
+    5122,
+    198,
+    70,
+    198,
+    2162,
+    198,
+    106949,
+    99761,
+    5140,
+    516,
+    28195,
+    15767,
+    385,
+    198,
+    11,
+    11,
+    198,
+    198,
+    436,
+    279,
+    3837,
+    2088,
+    8,
+    261,
+    3837,
+    897,
+    220,
+    311,
+    13,
+    8,
+    198,
+    19391,
+    812,
+    220,
+    11,
+    198,
+    198,
+    220,
+    271,
+    12,
+    198,
+    2665,
+    198,
+    198,
+    98641,
+    198,
+    12,
+    265,
+    68,
+    220,
+    353
+  ],
+  "telemetry": [
+    {
+      "prompt": " maksifth lyn\u0627\ufffdussion\u78ba\u4fddspe\tP",
+      "argmax_id": 68,
+      "argmax_tok": "e",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 11.6875,
+      "logit_checksum": -80819.201
+    },
+    {
+      "prompt": "$bodyDigits daughter::::el",
+      "argmax_id": 4324,
+      "argmax_tok": "abor",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.9375,
+      "logit_checksum": -2080.532
+    },
+    {
+      "prompt": "\u80fd\u5f97\u5230TLSNN\u0e25\u0e07\u0e44\u0e1bbuiltarked",
+      "argmax_id": 17877,
+      "argmax_tok": "\uc744",
+      "flip": true,
+      "top2_gap": 0.125,
+      "argmax_logit": 9.6875,
+      "logit_checksum": -191662.91
+    },
+    {
+      "prompt": "(link\u6b63\u5b97aeper Nuevo hym\u7262\u56fa\u6811\u7acb modulenodeValuecontrast",
+      "argmax_id": 220,
+      "argmax_tok": " ",
+      "flip": false,
+      "top2_gap": 0.1875,
+      "argmax_logit": 10.6875,
+      "logit_checksum": 127036.607
+    },
+    {
+      "prompt": "bruary.VisualBasic steak.curr signal",
+      "argmax_id": 284,
+      "argmax_tok": " =",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 12.1875,
+      "logit_checksum": -61843.516
+    },
+    {
+      "prompt": " sa\u00fade\u66fe\u7ecfaldo\u76ee\u524d\u5df2\u0631\u0628\u062d \u05d6\u05d5IndexOf SCORE",
+      "argmax_id": 50,
+      "argmax_tok": "S",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 9.875,
+      "logit_checksum": -321524.953
+    },
+    {
+      "prompt": " StartTime \u043f\u043e\u0441\u043a\u043e\u043b\u044c.AspNet lsp\u4e0a\u6e38lected\u8f68\u9053\u4ea4\u901a intimidated\u53d7\u9650",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 11.5625,
+      "logit_checksum": 60854.695
+    },
+    {
+      "prompt": " Represents Latitudeorphic\u89c9 WTF\u69dcdn blocking",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.125,
+      "argmax_logit": 10.875,
+      "logit_checksum": 58982.898
+    },
+    {
+      "prompt": "\u8222 rapidement.descriptor\u0e1a\u0e32\u0e14 inhabitants",
+      "argmax_id": 13,
+      "argmax_tok": ".",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 11.375,
+      "logit_checksum": -26995.526
+    },
+    {
+      "prompt": "\ufffd\u7ecf\u6d4e\u6280\u672f yelled\u570b coffee isAdmin alone",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.0,
+      "logit_checksum": -91223.965
+    },
+    {
+      "prompt": " \u0111\u00f3ng obstruction.Black\u89e3\u51b3\u6cbb\u7597\u74aa",
+      "argmax_id": 674,
+      "argmax_tok": "ob",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 10.375,
+      "logit_checksum": 35128.577
+    },
+    {
+      "prompt": " improving Assuin discoursewig \u05d7\u05d3\u05e9\u05d9\u05dd patronControlItem",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.3125,
+      "logit_checksum": -11062.657
+    },
+    {
+      "prompt": "\u304b\u308b stretchedURNS caveat",
+      "argmax_id": 25,
+      "argmax_tok": ":",
+      "flip": true,
+      "top2_gap": 0.125,
+      "argmax_logit": 13.625,
+      "logit_checksum": 175560.168
+    },
+    {
+      "prompt": "\u60e6 najcz\u0119\u015bcie errorCallbackADI\u4e3b\u8981\u539f\u56e0",
+      "argmax_id": 5122,
+      "argmax_tok": "\uff1a",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 15.8125,
+      "logit_checksum": -36759.279
+    },
+    {
+      "prompt": "-android\u3059\u304e\u308b\u6d53\u7f29\u540c\u6a23\u9057\u5740 Tucker",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 8.5625,
+      "logit_checksum": -478816.18
+    },
+    {
+      "prompt": " Boost\u0e0a\u0e32\u0e15\u0e34\u2a0d\ud835\udc29\tstats\u060d\u4e0d\u7ba1",
+      "argmax_id": 70,
+      "argmax_tok": "g",
+      "flip": true,
+      "top2_gap": 0.03125,
+      "argmax_logit": 7.21875,
+      "logit_checksum": -288871.879
+    },
+    {
+      "prompt": ".socket \u043e\u043f\u51e0\u4f4dNat",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 8.75,
+      "logit_checksum": -508177.371
+    },
+    {
+      "prompt": "DriversREN\ub3c4 n\u00e2ng",
+      "argmax_id": 2162,
+      "argmax_tok": " ca",
+      "flip": false,
+      "top2_gap": 0.1875,
+      "argmax_logit": 11.875,
+      "logit_checksum": -715681.385
+    },
+    {
+      "prompt": " sitio deceived Robbins indexOf cassetteoggles\u062f\u064e exposure",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 10.375,
+      "logit_checksum": -79800.206
+    },
+    {
+      "prompt": " \u062a\u0633\u062a\u27a0Saving\u88ab\u6355\u5e73\u65b9substpng C\u00e2mara\u952e\u76d8",
+      "argmax_id": 106949,
+      "argmax_tok": "\u5feb\u6377",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.6875,
+      "logit_checksum": -69825.225
+    },
+    {
+      "prompt": " Proof ISO\ud83d\udc62\u7a7f\u642d\u05d5\u05e8\u05d7\u05d9\u05dd\u6280",
+      "argmax_id": 99761,
+      "argmax_tok": "\u6597",
+      "flip": false,
+      "top2_gap": 0.3125,
+      "argmax_logit": 9.9375,
+      "logit_checksum": -106059.964
+    },
+    {
+      "prompt": "/fonts estate arac\u0131 kost\u987a\u4e30\u305d\u308c\u3067\u3082",
+      "argmax_id": 5140,
+      "argmax_tok": " \ufffd",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 7.90625,
+      "logit_checksum": -654260.397
+    },
+    {
+      "prompt": "chers McCart:[' miesz bieten\u62a2\u52ab\u0439\u0442\u0435\u0441\u044cYY planta\u4e0d\u514d",
+      "argmax_id": 516,
+      "argmax_tok": "',",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 9.0625,
+      "logit_checksum": -223556.13
+    },
+    {
+      "prompt": "skill objections\u3068\u306aRN teams",
+      "argmax_id": 28195,
+      "argmax_tok": "\u304c",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 13.9375,
+      "logit_checksum": -106167.706
+    },
+    {
+      "prompt": "\ufb83\u73b0\u4ee3\u5316\u6f2aomitempty\uc758\u6253\u7740f\u00e4lle",
+      "argmax_id": 15767,
+      "argmax_tok": "\u306e",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 10.0625,
+      "logit_checksum": -235165.492
+    },
+    {
+      "prompt": "_LOG abandonment\ud83e\uddc0 \u0432\u043e\u043f",
+      "argmax_id": 385,
+      "argmax_tok": "lo",
+      "flip": true,
+      "top2_gap": 0.125,
+      "argmax_logit": 11.0,
+      "logit_checksum": -94990.275
+    },
+    {
+      "prompt": "collapse\u99a5 otherwise m\u00e1xima Assertion_suffix\u73cd\u8d35",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 9.0625,
+      "logit_checksum": -93478.252
+    },
+    {
+      "prompt": " drills gives Cursors\u78f9",
+      "argmax_id": 11,
+      "argmax_tok": ",",
+      "flip": true,
+      "top2_gap": 0.125,
+      "argmax_logit": 8.3125,
+      "logit_checksum": -193170.477
+    },
+    {
+      "prompt": "\u044b\u0435 Prelude \u0441\u0442\u0430\u043b\u0430 getch burst",
+      "argmax_id": 11,
+      "argmax_tok": ",",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 9.3125,
+      "logit_checksum": -550205.555
+    },
+    {
+      "prompt": ".setImageBitmap QinArray anterior h\u1ecdcprobante ArbeitHasMaxLength \u0434\u043b\u044f\u5927\u8c46",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 8.125,
+      "logit_checksum": -481064.288
+    },
+    {
+      "prompt": " Tre\u5df2\u8fbe Each proph Leben_NBClasses PASSWORD office\ufb83",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.3125,
+      "argmax_logit": 9.1875,
+      "logit_checksum": -82705.287
+    },
+    {
+      "prompt": "\u4e25\u5389\u6253\u51fb.HasKey \u0431\u043e\u043b\u044c\u0448\u043e\u0435 controllers Alt",
+      "argmax_id": 436,
+      "argmax_tok": "os",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 13.5,
+      "logit_checksum": -79633.823
+    },
+    {
+      "prompt": "The capital of the country north of France is",
+      "argmax_id": 279,
+      "argmax_tok": " the",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 14.9375,
+      "logit_checksum": -324874.517
+    },
+    {
+      "prompt": "-Americ CONTR\u4ed6\u5bf9 alongside Sioux\u653b\u51fb",
+      "argmax_id": 3837,
+      "argmax_tok": "\uff0c",
+      "flip": false,
+      "top2_gap": 0.125,
+      "argmax_logit": 12.6875,
+      "logit_checksum": -305762.711
+    },
+    {
+      "prompt": " Autonomous Bever\u9e6d wide",
+      "argmax_id": 2088,
+      "argmax_tok": " range",
+      "flip": true,
+      "top2_gap": 0.1875,
+      "argmax_logit": 10.75,
+      "logit_checksum": -149522.113
+    },
+    {
+      "prompt": " activitieslar\u0131nda.colsodied exter/screen(*dong\u76f8\u5173\u5185\u5bb9 contracting",
+      "argmax_id": 8,
+      "argmax_tok": ")",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 11.5625,
+      "logit_checksum": -16509.175
+    },
+    {
+      "prompt": " \u05dc\u05d5\u05e7\u09cd\u05db\u05d5\u05e9\u05e8/am\u25a7 \u0627\u0644\u0641\u0646\u064a_PADDING b\u1ee5nggetPost",
+      "argmax_id": 261,
+      "argmax_tok": "er",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 13.0625,
+      "logit_checksum": -158210.8
+    },
+    {
+      "prompt": "\t\t\t\t\t \u05e4\u05e8\u05d8\u05d9\u05d5\u05ea\u69bbTurn\u4e09\u4e2a\u6708",
+      "argmax_id": 3837,
+      "argmax_tok": "\uff0c",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 13.125,
+      "logit_checksum": -30704.395
+    },
+    {
+      "prompt": " besie\u0648\u0631\u064a\u0629inkel_MODAL\uffe6 Desired",
+      "argmax_id": 897,
+      "argmax_tok": " value",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 9.5625,
+      "logit_checksum": -91072.955
+    },
+    {
+      "prompt": " fireplace CHARSET \u0446\u0435\u043b\u044c\u044e\u001b",
+      "argmax_id": 220,
+      "argmax_tok": " ",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.1875,
+      "logit_checksum": -323946.355
+    },
+    {
+      "prompt": "Sortable kneeling PROVIDED guides",
+      "argmax_id": 311,
+      "argmax_tok": " to",
+      "flip": false,
+      "top2_gap": 0.125,
+      "argmax_logit": 16.75,
+      "logit_checksum": 223199.713
+    },
+    {
+      "prompt": "\u043a\u0441\u0438remely_VALUES\ufcc8\u4efb\u4f55\u5f62\u5f0f.tight explainingphis",
+      "argmax_id": 13,
+      "argmax_tok": ".",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 11.375,
+      "logit_checksum": 128222.101
+    },
+    {
+      "prompt": " squadron(cfg\u5960\u5b9a\u4e86Angel.isNullOrEmpty\u01fb\u05e4\u05dc\u05e1\u05d8viar",
+      "argmax_id": 8,
+      "argmax_tok": ")",
+      "flip": true,
+      "top2_gap": 0.125,
+      "argmax_logit": 9.0,
+      "logit_checksum": -184464.088
+    },
+    {
+      "prompt": " mat\u00e9riel contributedmericrum border \u043f\u0440\u0438\ufffd\u6e05\u65b0\u5357\u7701\ufffd",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 8.875,
+      "logit_checksum": -206632.908
+    },
+    {
+      "prompt": ".moveToNextApps\ud5d0\u3067\u3057\u3087\u3046\u793e\u4f1a\u6548\u76ca Yap\u0131whatever",
+      "argmax_id": 19391,
+      "argmax_tok": "\uc5d0",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 9.25,
+      "logit_checksum": -365644.983
+    },
+    {
+      "prompt": "-progress lead\u043d\u0435\u0436 //--------------------------------\u4e2a\u5de5\u4f5c.hamcrest Mo\u017ceanka railwaysLov",
+      "argmax_id": 812,
+      "argmax_tok": "ish",
+      "flip": true,
+      "top2_gap": 0.1875,
+      "argmax_logit": 13.375,
+      "logit_checksum": -75891.224
+    },
+    {
+      "prompt": " festival plaintiffs\u5b5b \u6ce8\u6078\u0631\u0639\u0627\u064a\u0629 Cham workflowsGrade\u05d5\u05dc\u05dd",
+      "argmax_id": 220,
+      "argmax_tok": " ",
+      "flip": false,
+      "top2_gap": 0.125,
+      "argmax_logit": 9.0,
+      "logit_checksum": -174990.254
+    },
+    {
+      "prompt": "=(( listar_Object\u0628\u0648\u0643",
+      "argmax_id": 11,
+      "argmax_tok": ",",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.3125,
+      "logit_checksum": -161535.505
+    },
+    {
+      "prompt": " cartoons\u52b3\u7d2f\u7c30 markerstent",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": true,
+      "top2_gap": 0.0,
+      "argmax_logit": 10.9375,
+      "logit_checksum": 5078.466
+    },
+    {
+      "prompt": "BoxesUnsigned\u5b71\ud83e\uddf9 harmless\u8f7a tr\u1ea3i starter\u4e1c\u4e9a",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.09375,
+      "argmax_logit": 7.96875,
+      "logit_checksum": -201510.736
+    },
+    {
+      "prompt": "\ud83c\udfdc\u78b0\u649e\u0433\u043b\u0430\u0441JWTurlbj\u306b\u884c\u3063\u305f \u062e\u0644\u0627\u0644",
+      "argmax_id": 220,
+      "argmax_tok": " ",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 10.0625,
+      "logit_checksum": -393699.689
+    },
+    {
+      "prompt": "\u043a\u043b PATH MOZ\u505c\u8f66 lesbienne millennials",
+      "argmax_id": 271,
+      "argmax_tok": "\n\n",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.375,
+      "logit_checksum": -268066.617
+    },
+    {
+      "prompt": " attachment\u53d9\u8ff0-bot est Simplyrowsing earning\u3132onChange",
+      "argmax_id": 12,
+      "argmax_tok": "-",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 9.6875,
+      "logit_checksum": -182120.587
+    },
+    {
+      "prompt": "\u12f6 eligibleigenous\u807d\u0e41\u0e14 inade qemudtochair_RAM",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.03125,
+      "argmax_logit": 7.6875,
+      "logit_checksum": -448740.234
+    },
+    {
+      "prompt": " Customers\u7d20.blurBackStack/Error",
+      "argmax_id": 2665,
+      "argmax_tok": "Page",
+      "flip": false,
+      "top2_gap": 0.0625,
+      "argmax_logit": 12.25,
+      "logit_checksum": -189279.692
+    },
+    {
+      "prompt": "\u9553 !! \u0441\u043d\u0438\u0436\u0435\u043d Borough Mustang sightingsefficientexas",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 11.75,
+      "logit_checksum": 7638.078
+    },
+    {
+      "prompt": " \u05d3\u0cb6 claimCREATE.search repeal",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.1875,
+      "argmax_logit": 10.875,
+      "logit_checksum": -29567.76
+    },
+    {
+      "prompt": " \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f laden\ud835\ude8b\u044f\u0432\u53c2\u80a1withdraw chop\u92ea",
+      "argmax_id": 98641,
+      "argmax_tok": "\u88c5",
+      "flip": false,
+      "top2_gap": 0.3125,
+      "argmax_logit": 10.125,
+      "logit_checksum": -100889.296
+    },
+    {
+      "prompt": "\u6cfa Optionally FAR wishes\u5206\u949f",
+      "argmax_id": 198,
+      "argmax_tok": "\n",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 12.875,
+      "logit_checksum": -50580.036
+    },
+    {
+      "prompt": " \u043d\u0430\u0440\u0443\u4e3b\u6301\u53ec\u5f00 \uadf8\ub7fc\u0634\u0639\u0627\u0631-lnd'tuple",
+      "argmax_id": 12,
+      "argmax_tok": "-",
+      "flip": false,
+      "top2_gap": 0.0,
+      "argmax_logit": 9.4375,
+      "logit_checksum": -328393.598
+    },
+    {
+      "prompt": "\u2734 YOU\u062a\u0631\u0627\u062bMachine ho\u00e0ng reinforcingieempt Wo\u6c34\u8d44\u6e90",
+      "argmax_id": 265,
+      "argmax_tok": "re",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 11.5,
+      "logit_checksum": 103338.806
+    },
+    {
+      "prompt": " affine\tkeys s\u00fcrecin appellant",
+      "argmax_id": 68,
+      "argmax_tok": "e",
+      "flip": true,
+      "top2_gap": 0.25,
+      "argmax_logit": 12.3125,
+      "logit_checksum": -225395.814
+    },
+    {
+      "prompt": "\u58eb\u7a4d\u6975\ufffd lattice yacht-redux fz",
+      "argmax_id": 220,
+      "argmax_tok": " ",
+      "flip": false,
+      "top2_gap": 0.125,
+      "argmax_logit": 11.0625,
+      "logit_checksum": -95294.015
+    },
+    {
+      "prompt": " minut PN\u8ffd\u7a76 th\u00f4i Kare assures*i\u5168\u5a92\u4f53 organize_msg",
+      "argmax_id": 353,
+      "argmax_tok": " *",
+      "flip": true,
+      "top2_gap": 0.0625,
+      "argmax_logit": 10.6875,
+      "logit_checksum": -234595.067
+    }
+  ]
+}

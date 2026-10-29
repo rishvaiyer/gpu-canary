@@ -1,0 +1,44 @@
+=== GPU ===
+NVIDIA L4, 580.178.04
+torch 2.9.1+cu129 cuda 12.9
+=== L4 reference signatures, two runs each ===
+[l4-cuda-float32] 64 probes, 0 flips vs bank, 21.55 probe/s on gpu-canary/x86_64 -> refs/sig_l4_float32_run1.json
+[l4-cuda-float32] 64 probes, 0 flips vs bank, 21.18 probe/s on gpu-canary/x86_64 -> refs/sig_l4_float32_run2.json
+[l4-cuda-float16] 64 probes, 9 flips vs bank, 24.04 probe/s on gpu-canary/x86_64 -> refs/sig_l4_float16_run1.json
+[l4-cuda-float16] 64 probes, 9 flips vs bank, 24.4 probe/s on gpu-canary/x86_64 -> refs/sig_l4_float16_run2.json
+[l4-cuda-bfloat16] 64 probes, 28 flips vs bank, 24.27 probe/s on gpu-canary/x86_64 -> refs/sig_l4_bfloat16_run1.json
+[l4-cuda-bfloat16] 64 probes, 28 flips vs bank, 24.67 probe/s on gpu-canary/x86_64 -> refs/sig_l4_bfloat16_run2.json
+=== stability + separation ===
+L4 float32: run1 vs run2 differ 0/64
+L4 float16: run1 vs run2 differ 0/64
+L4 bfloat16: run1 vs run2 differ 0/64
+l4_float32      vs l4_float16      differ  9/64
+l4_float32      vs l4_bfloat16     differ 28/64
+l4_float32      vs ryzen_float32   differ  0/64
+l4_float32      vs ryzen_float16   differ  7/64
+l4_float32      vs ryzen_bfloat16  differ 26/64
+l4_float16      vs l4_bfloat16     differ 31/64
+l4_float16      vs ryzen_float32   differ  9/64
+l4_float16      vs ryzen_float16   differ  4/64
+l4_float16      vs ryzen_bfloat16  differ 29/64
+l4_bfloat16     vs ryzen_float32   differ 28/64
+l4_bfloat16     vs ryzen_float16   differ 31/64
+l4_bfloat16     vs ryzen_bfloat16  differ 20/64
+ryzen_float32   vs ryzen_float16   differ  7/64
+ryzen_float32   vs ryzen_bfloat16  differ 26/64
+ryzen_float16   vs ryzen_bfloat16  differ 30/64
+=== fault sweep on L4 float16 (border vs ordinary) ===
+border    inject=None         mismatches= 0/64  OK  2.5s
+border    inject=20:7:0.01    mismatches= 2/64  DRIFT  2.5s
+ordinary  inject=20:7:0.01    mismatches= 0/32  OK  2.6s
+border    inject=20:7:0.1     mismatches= 2/64  DRIFT  2.5s
+ordinary  inject=20:7:0.1     mismatches= 0/32  OK  2.5s
+border    inject=20:7:1       mismatches= 9/64  DRIFT  2.5s
+ordinary  inject=20:7:1       mismatches= 0/32  OK  2.5s
+border    inject=20:7:-2      mismatches= 6/64  DRIFT  2.5s
+ordinary  inject=20:7:-2      mismatches= 0/32  OK  2.5s
+border    inject=20:7:10      mismatches=26/64  DRIFT  2.5s
+ordinary  inject=20:7:10      mismatches= 1/32  DRIFT  2.5s
+=== DCGM diag level 1 (NVIDIA's own check) ===
+dcgmi not installed
+DONE

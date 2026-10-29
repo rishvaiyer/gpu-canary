@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or paper, please cite it."
+title: "GPU Canary: Border Inputs as a Two-Second Integrity Check for Silent Data Corruption in Deployed Language Models"
+authors:
+  - family-names: Iyer
+    given-names: Rishva Tejan
+date-released: 2026-10-29
+license: MIT
+repository-code: https://github.com/rishvaiyer/gpu-canary
